@@ -20,11 +20,17 @@ public class CrazyTalkOptions
     public List<CrazyTalkOption> options;
 }
 
+public class CrazyModSetting
+{
+    public LangID language;
+    public string langList;
+}
+
 ///Use ISO 639-1
 public enum LangID
 {
-    JA = 0,
-    EN,
+    ja = 0,
+    en,
 }
 
 
@@ -34,6 +40,7 @@ public class CrazyTalkTranslatedModule : MonoBehaviour
     public Text textDisplay;
     public Animator switchAnimator;
     public KMSelectable toggleSwitch;
+    public KMModSettings modSettings;
 
     CrazyTalkOptions mOptions;
     CrazyTalkOption mOption;
@@ -49,23 +56,34 @@ public class CrazyTalkTranslatedModule : MonoBehaviour
     void Awake()
     {
         moduleIDCounter = 0;
+    }
 
+    void Start ()
+    {
+        //LangID Setup
         if (mlangID < 0)
         {
             if (Application.isEditor)
             {
                 //Change language from here
-                mlangID = (int)LangID.JA;
+                mlangID = (int)LangID.ja;
             }
             else
             {
-                //Load ModConfig
+                try
+                {
+                    //Load ModConfig
+                    CrazyModSetting setting = JsonConvert.DeserializeObject<CrazyModSetting>(modSettings.Settings);
+                    mlangID = (int)setting.language;
+                }
+                catch (Exception e)
+                {
+                    Debug.LogFormat("[Crazy Talk Translated] Error Loading ModConfig: ", e);
+                    mlangID = (int)LangID.en;
+                }
             }
         }
-    }
 
-    void Start ()
-    {
         moduleID = ++moduleIDCounter;
         switchAnimator.SetBool("IsUp", bSwitchState);
         mOptions = JsonConvert.DeserializeObject<CrazyTalkOptions>(crazyTalkJsons[mlangID].text);

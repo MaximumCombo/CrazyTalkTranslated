@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 11434540}
   - component: {fileID: 11482148}
   - component: {fileID: 11463526}
+  - component: {fileID: 114712672847686730}
   - component: {fileID: 114101009540487988}
   m_Layer: 0
   m_Name: CrazyTalkModule
@@ -1119,10 +1120,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfd083d36c2ef1d499c2dcafa3e7b589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crazyTalkJsons: []
+  crazyTalkJsons:
+  - {fileID: 4900000, guid: 14828bf6498612d479799101e2959a7a, type: 3}
+  - {fileID: 4900000, guid: eaecf3eb197524c408ab3126800a6da2, type: 3}
   textDisplay: {fileID: 11437164}
   switchAnimator: {fileID: 95042108763908372}
   toggleSwitch: {fileID: 114976066910040870}
+  modSettings: {fileID: 114712672847686730}
 --- !u!114 &114331343963572080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1175,6 +1179,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
+--- !u!114 &114712672847686730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -289456416, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: '{   "language": "ja",   "langList": "en, ja" }'
+  SettingsPath: 
 --- !u!114 &114736512093872078
 MonoBehaviour:
   m_ObjectHideFlags: 1
