@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 11434540}
   - component: {fileID: 11482148}
   - component: {fileID: 11463526}
-  - component: {fileID: 11418372}
+  - component: {fileID: 114101009540487988}
   m_Layer: 0
   m_Name: CrazyTalkModule
   m_TagString: Untagged
@@ -628,21 +628,6 @@ MonoBehaviour:
   AllowSelectionWrapY: 0
   ForceSelectionHighlight: 0
   ForceInteractionHighlight: 0
---- !u!114 &11418372
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe26325437ace92428c063675a718d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  crazyTalkJson: {fileID: 4900000, guid: 14828bf6498612d479799101e2959a7a, type: 3}
-  textDisplay: {fileID: 11437164}
-  switchAnimator: {fileID: 95042108763908372}
-  toggleSwitch: {fileID: 114976066910040870}
 --- !u!114 &11419252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1123,6 +1108,21 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114101009540487988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd083d36c2ef1d499c2dcafa3e7b589, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crazyTalkJsons: []
+  textDisplay: {fileID: 11437164}
+  switchAnimator: {fileID: 95042108763908372}
+  toggleSwitch: {fileID: 114976066910040870}
 --- !u!114 &114331343963572080
 MonoBehaviour:
   m_ObjectHideFlags: 1

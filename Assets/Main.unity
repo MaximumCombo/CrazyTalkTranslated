@@ -113,13 +113,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &294342935
+--- !u!1001 &610191957
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114101009540487988, guid: 3236f66270d5db142acbbf6c99b2543d,
+        type: 2}
+      propertyPath: crazyTalkJson.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3236f66270d5db142acbbf6c99b2543d, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -152,9 +157,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 11437164, guid: 3236f66270d5db142acbbf6c99b2543d, type: 2}
-      propertyPath: m_FontData.m_BestFit
-      value: 1
+    - target: {fileID: 100002, guid: 3236f66270d5db142acbbf6c99b2543d, type: 2}
+      propertyPath: m_Name
+      value: CrazyTalkTranslatedModule
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3236f66270d5db142acbbf6c99b2543d, type: 2}

@@ -4,11 +4,15 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using System;
 
+// 
+// Original File by Perky
+// 
+
 public class CrazyTalkOption
 {
-    public String txt;
-    public Int32 down;
-    public Int32 up;
+    public string txt;
+    public int down;
+    public int up;
 }
 
 public class CrazyTalkOptions
@@ -16,9 +20,17 @@ public class CrazyTalkOptions
     public List<CrazyTalkOption> options;
 }
 
-public class CrazyTalkModule : MonoBehaviour
+///Use ISO 639-1
+public enum LangID
 {
-    public TextAsset crazyTalkJson;
+    JA = 0,
+    EN,
+}
+
+
+public class CrazyTalkTranslatedModule : MonoBehaviour
+{
+    public List<TextAsset> crazyTalkJsons;
     public Text textDisplay;
     public Animator switchAnimator;
     public KMSelectable toggleSwitch;
@@ -30,19 +42,33 @@ public class CrazyTalkModule : MonoBehaviour
     KMBomb mBombInfo;
     int mCorrectSwitches = 0;
 
+    private static int mlangID = -1;
     private static int moduleIDCounter;
     private int moduleID;
 
     void Awake()
     {
         moduleIDCounter = 0;
+
+        if (mlangID < 0)
+        {
+            if (Application.isEditor)
+            {
+                //Change language from here
+                mlangID = (int)LangID.JA;
+            }
+            else
+            {
+                //Load ModConfig
+            }
+        }
     }
 
     void Start ()
     {
         moduleID = ++moduleIDCounter;
         switchAnimator.SetBool("IsUp", bSwitchState);
-        mOptions = JsonConvert.DeserializeObject<CrazyTalkOptions>(crazyTalkJson.text);
+        mOptions = JsonConvert.DeserializeObject<CrazyTalkOptions>(crazyTalkJsons[mlangID].text);
         mOption = mOptions.options[UnityEngine.Random.Range(0, mOptions.options.Count)];
         GetComponent<KMBombModule>().OnActivate += OnActivate;
         toggleSwitch.OnInteract += ToggleSwitch;
