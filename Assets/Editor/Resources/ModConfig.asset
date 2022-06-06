@@ -14,7 +14,23 @@ MonoBehaviour:
   id: CrazyTalkTranslated
   title: Crazy Talk (Translated)
   author: MaximumCombo
-  description: 
+  description: 'Currently, only en and ja are avaliable.
+
+
+    ModuleID: CrazyTalkTranslated
+
+    Japanese Manual: https://maximumcombo.github.io/HTML/Crazy%20Talk%20Japanese.html
+
+
+    Original Mod by Perky.
+
+    Twitch Plays supported.
+
+
+    If you want to translate into your language, feel free to contact me.
+
+
+    Source: https://github.com/MaximumCombo/CrazyTest'
   version: 1.0
   outputFolder: build
   previewImage: {fileID: 2800000, guid: d1b50e1c8d65e3e46a4963167e44cd48, type: 3}
