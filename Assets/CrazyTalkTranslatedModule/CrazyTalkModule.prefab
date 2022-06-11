@@ -1123,6 +1123,7 @@ MonoBehaviour:
   crazyTalkJsons:
   - {fileID: 4900000, guid: 14828bf6498612d479799101e2959a7a, type: 3}
   - {fileID: 4900000, guid: eaecf3eb197524c408ab3126800a6da2, type: 3}
+  - {fileID: 4900000, guid: b8f501b1922f55d4a86d54c3e49c784e, type: 3}
   textDisplay: {fileID: 11437164}
   switchAnimator: {fileID: 95042108763908372}
   toggleSwitch: {fileID: 114976066910040870}
@@ -1192,7 +1193,7 @@ MonoBehaviour:
   m_Script: {fileID: -289456416, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Settings: '{   "language": "ja",   "langList": "en, ja" }'
+  Settings: '{   "language": "ja",   "langList": "en, ja, ru" }'
   SettingsPath: 
 --- !u!114 &114736512093872078
 MonoBehaviour:

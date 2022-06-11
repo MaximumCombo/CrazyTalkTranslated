@@ -34,6 +34,7 @@ public enum LangID
 {
     ja = 0,
     en,
+    ru
 }
 
 public class CrazyTalkTranslatedModule : MonoBehaviour
@@ -69,7 +70,7 @@ public class CrazyTalkTranslatedModule : MonoBehaviour
             if (Application.isEditor)
             {
                 //Change language from here
-                mlangID = (int)LangID.ja;
+                mlangID = (int)LangID.ru;
             }
             else
             {
@@ -143,15 +144,17 @@ public class CrazyTalkTranslatedModule : MonoBehaviour
             yield break;
         }
 
-        int up = Int32.Parse(modulesMatch.Groups[1].Value);
-        int down = Int32.Parse(modulesMatch.Groups[2].Value);
+        int down = int.Parse(modulesMatch.Groups[1].Value);
+        int up = int.Parse(modulesMatch.Groups[2].Value);
 
         int second;
+        bool isUp;
         while (mCorrectSwitches < 2)
         {
             second = (int)Math.Floor(GetComponent<KMBombInfo>().GetTime()) % 10;
+            isUp = bSwitchState;
 
-            if ((bSwitchState && second == up) || (!bSwitchState && second == down))
+            if ((isUp && second == down) || (!isUp && second == up))
                 yield return toggleSwitch;
 
             else yield return new WaitForSeconds(0.1f);
