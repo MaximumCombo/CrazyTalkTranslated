@@ -82,7 +82,7 @@ public class CrazyTalkTranslatedModule : MonoBehaviour
                 }
                 catch (Exception e)
                 {
-                    Debug.LogFormat("[Crazy Talk Translated] Error Loading ModConfig: ", e);
+                    Debug.LogFormat("[Crazy Talk Translated] Error Loading ModSettings: {0}", e);
                     mlangID = (int)LangID.ja;
                 }
             }
@@ -130,7 +130,7 @@ public class CrazyTalkTranslatedModule : MonoBehaviour
         return false;
     }
 
-    public string TwitchHelpMessage = "Crazy Talk Translated : Toggle the switch down and up with !3 toggle 4 5. The order is down, then up.";
+    public string TwitchHelpMessage = "Crazy Talk Translated : Toggle the switch down and up with !{0} toggle 4 5. The order is down, then up.";
     public IEnumerator ProcessTwitchCommand(string command)
     {
         if (!bActive)

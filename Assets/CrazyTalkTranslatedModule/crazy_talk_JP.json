@@ -426,5 +426,5 @@
       "up": 2
     }
   ],
-  "twitchHelpMsg": "Crazy Talk Translated : !3 toggle 4 5 のように入力してスイッチを切り替える。順番は下、上。"
+  "twitchHelpMsg": "Crazy Talk Translated : !{0} toggle 4 5 のように入力してスイッチを切り替える。順番は下、上。"
 }
