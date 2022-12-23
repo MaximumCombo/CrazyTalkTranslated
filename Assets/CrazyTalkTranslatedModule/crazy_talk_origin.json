@@ -426,5 +426,5 @@
       "up": 2
     }
   ],
-  "twitchHelpMsg": "Crazy Talk Translated : Toggle the switch down and up with !{0} toggle 4 5. The order is down, then up."
+  "twitchHelpMsg": "Toggle the switch down and up with !{0} toggle 4 5. The order is down, then up."
 }

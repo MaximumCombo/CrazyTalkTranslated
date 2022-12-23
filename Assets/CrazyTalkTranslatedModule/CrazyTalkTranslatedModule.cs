@@ -130,7 +130,7 @@ public class CrazyTalkTranslatedModule : MonoBehaviour
         return false;
     }
 
-    public string TwitchHelpMessage = "Crazy Talk Translated : Toggle the switch down and up with !{0} toggle 4 5. The order is down, then up.";
+    public string TwitchHelpMessage = "Toggle the switch down and up with !{0} toggle 4 5. The order is down, then up.";
     public IEnumerator ProcessTwitchCommand(string command)
     {
         if (!bActive)
