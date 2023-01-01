@@ -34,7 +34,8 @@ public enum LangID
 {
     ja = 0,
     en,
-    ru
+    ru,
+    de
 }
 
 public class CrazyTalkTranslatedModule : MonoBehaviour
@@ -70,7 +71,7 @@ public class CrazyTalkTranslatedModule : MonoBehaviour
             if (Application.isEditor)
             {
                 //Change language from here
-                mlangID = (int)LangID.ru;
+                mlangID = (int)LangID.de;
             }
             else
             {

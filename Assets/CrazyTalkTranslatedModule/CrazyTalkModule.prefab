@@ -1124,12 +1124,13 @@ MonoBehaviour:
   - {fileID: 4900000, guid: 14828bf6498612d479799101e2959a7a, type: 3}
   - {fileID: 4900000, guid: eaecf3eb197524c408ab3126800a6da2, type: 3}
   - {fileID: 4900000, guid: b8f501b1922f55d4a86d54c3e49c784e, type: 3}
+  - {fileID: 4900000, guid: 23931ec8081068a449fdc30f090147d3, type: 3}
   textDisplay: {fileID: 11437164}
   switchAnimator: {fileID: 95042108763908372}
   toggleSwitch: {fileID: 114976066910040870}
   modSettings: {fileID: 114712672847686730}
-  TwitchHelpMessage: 'Crazy Talk Translated : Toggle the switch down and up with !3
-    toggle 4 5. The order is down, then up.'
+  TwitchHelpMessage: Toggle the switch down and up with !3 toggle 4 5. The order is
+    down, then up.
 --- !u!114 &114331343963572080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1193,7 +1194,7 @@ MonoBehaviour:
   m_Script: {fileID: -289456416, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Settings: '{   "language": "ja",   "langList": "en, ja, ru" }'
+  Settings: '{   "language": "ja",   "langList": "de, en, ja, ru" }'
   SettingsPath: 
 --- !u!114 &114736512093872078
 MonoBehaviour:

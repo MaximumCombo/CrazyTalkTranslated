@@ -1,0 +1,430 @@
+{
+  "options": [
+    {
+      "txt": "← ← → ← → →",
+      "down": 5,
+      "up": 4
+    },
+    {
+      "txt": "NEIN WIRKLICH.",
+      "down": 5,
+      "up": 2
+    },
+    {
+      "txt": "G E R TEE MIT 2 E",
+      "down": 4,
+      "up": 2
+    },
+    {
+      "txt": "DAS MIT SECHS PFEILEN",
+      "down": 2,
+      "up": 8
+    },
+    {
+      "txt": "G E R T",
+      "down": 3,
+      "up": 2
+    },
+    {
+      "txt": "← LINKS → LINKS → RECHTS",
+      "down": 5,
+      "up": 6
+    },
+    {
+      "txt": "GEH E R TEE",
+      "down": 3,
+      "up": 0
+    },
+    {
+      "txt": "←",
+      "down": 6,
+      "up": 3
+    },
+    {
+      "txt": "LINKSPFEIL WORT LINKS RECHTSPFEIL WORT LINKS RECHTSPFEIL WORT RECHTS",
+      "down": 5,
+      "up": 8
+    },
+    {
+      "txt": "GE UND DANN E R T",
+      "down": 4,
+      "up": 7
+    },
+    {
+      "txt": "DOT DOT ENDE NEIN WARTE DOT PUNKT",
+      "down": 5,
+      "up": 0
+    },
+    {
+      "txt": "DAS WORT DOT ZWEIMAL",
+      "down": 9,
+      "up": 4
+    },
+    {
+      "txt": "LEER",
+      "down": 1,
+      "up": 3
+    },
+    {
+      "txt": "DOT ZWEIMAL",
+      "down": 7,
+      "up": 6
+    },
+    {
+      "txt": "LINKS LINKS RECHTS LINKS RECHTS RECHTS",
+      "down": 6,
+      "up": 7
+    },
+    {
+      "txt": "← ← RECHTS LINKS → →",
+      "down": 6,
+      "up": 1
+    },
+    {
+      "txt": "WORTWÖRTLICH LEER",
+      "down": 1,
+      "up": 5
+    },
+    {
+      "txt": "LINKS",
+      "down": 6,
+      "up": 9
+    },
+    {
+      "txt": "DA STEHT GE AUSGESCHRIEBEN UND DANN DIE BUCHSTABEN E R T",
+      "down": 4,
+      "up": 5
+    },
+    {
+      "txt": "DAS SATZZEICHEN PUNKT",
+      "down": 9,
+      "up": 2
+    },
+    {
+      "txt": "WIE DAS DISPLAY HAT SICH GEÄNDERT ICH WUSSTE NICHT DASS ES DAS KANN STEHT DAFÜR IRGENDWAS IN DER ANLEITUNG",
+      "down": 8,
+      "up": 7
+    },
+    {
+      "txt": "PUNKT ZWEIMAL",
+      "down": 9,
+      "up": 0
+    },
+    {
+      "txt": "..",
+      "down": 8,
+      "up": 5
+    },
+    {
+      "txt": "GE PHONETISCH UND E R T MIT BUCHSTABEN",
+      "down": 3,
+      "up": 5
+    },
+    {
+      "txt": "DE A ES LEERZEICHEN WE O ER TE LEERZEICHEN LE E E ER",
+      "down": 0,
+      "up": 7
+    },
+    {
+      "txt": "G E R T MIT 2 E",
+      "down": 4,
+      "up": 1
+    },
+    {
+      "txt": "DAS SYMBOL LINKSPFEIL ALS SATZ",
+      "down": 5,
+      "up": 3
+    },
+    {
+      "txt": "PUNKT PUNKT",
+      "down": 8,
+      "up": 2
+    },
+    {
+      "txt": "DREI WÖRTER DAS SATZZEICHEN PUNKT",
+      "down": 9,
+      "up": 9
+    },
+    {
+      "txt": "WARTE VON VORNE ZWEI WÖRTER DANN ZWEI SYMBOLE DANN ZWEI WÖRTER START ← ← RECHTS LINKS → →",
+      "down": 1,
+      "up": 6
+    },
+    {
+      "txt": "DA SIND DREI WÖRTER UND KEINE ZEICHEN BEREIT PUNKT DOT PUNKT",
+      "down": 5,
+      "up": 0
+    },
+    {
+      "txt": "GE E R T",
+      "down": 3,
+      "up": 6
+    },
+    {
+      "txt": "VON VORNE ZWEIMAL PFEIL NACH LINKS SYMBOL DANN DIE WÖRTER RECHTS LINKS UND DANN EIN PFEIL NACH RECHTS ALS SYMBOL",
+      "down": 6,
+      "up": 0
+    },
+    {
+      "txt": "ALLES PHONETISCH GE EH ER UND TEE WIE DAS GETRÄNK",
+      "down": 4,
+      "up": 0
+    },
+    {
+      "txt": "PUNKT",
+      "down": 7,
+      "up": 9
+    },
+    {
+      "txt": "DE A ES LEERZEICHEN WE O ER TE LEERZEICHEN LE DOPPELE ER",
+      "down": 2,
+      "up": 9
+    },
+    {
+      "txt": "DOT DOT",
+      "down": 8,
+      "up": 6
+    },
+    {
+      "txt": "WORTWÖRTLICH NICHTS",
+      "down": 1,
+      "up": 4
+    },
+    {
+      "txt": "FÜNF WÖRTER DREI WÖRTER DAS SATZZEICHEN PUNKT",
+      "down": 1,
+      "up": 9
+    },
+    {
+      "txt": ".DOT",
+      "down": 7,
+      "up": 8
+    },
+    {
+      "txt": "PFEIL NACH LINKS",
+      "down": 6,
+      "up": 8
+    },
+    {
+      "txt": "NEIN, WORTWÖRTLICH NICHTS",
+      "down": 2,
+      "up": 5
+    },
+    {
+      "txt": "DER SATZ DAS SATZZEICHEN PUNKT",
+      "down": 9,
+      "up": 3
+    },
+    {
+      "txt": "NUR WÖRTER START DAS SYMBOL PFEIL NACH LINKS",
+      "down": 7,
+      "up": 2
+    },
+    {
+      "txt": "DAS WORT LINKS",
+      "down": 7,
+      "up": 0
+    },
+    {
+      "txt": "LEERES FELD",
+      "down": 1,
+      "up": 6
+    },
+    {
+      "txt": "PE EF E I EL LEERZEICHEN EN A CE HA LEERZEICHEN EL I EN KA ES",
+      "down": 6,
+      "up": 5
+    },
+    {
+      "txt": "GEHEN E R T",
+      "down": 4,
+      "up": 3
+    },
+    {
+      "txt": "WARTE ES IST LEER",
+      "down": 1,
+      "up": 9
+    },
+    {
+      "txt": "GE EH ER TEE",
+      "down": 3,
+      "up": 7
+    },
+    {
+      "txt": "NICHTS",
+      "down": 1,
+      "up": 2
+    },
+    {
+      "txt": "DAS SYMBOL LINKSPFEIL",
+      "down": 6,
+      "up": 4
+    },
+    {
+      "txt": "SIEBEN WÖRTER FÜNF WÖRTER DREI WÖRTER DAS SATZZEICHEN PUNKT",
+      "down": 0,
+      "up": 5
+    },
+    {
+      "txt": "ES ZEIGT NICHTS AN",
+      "down": 2,
+      "up": 3
+    },
+    {
+      "txt": "DA STEHT NICHTS",
+      "down": 1,
+      "up": 8
+    },
+    {
+      "txt": "DAS SYMBOL PFEIL NACH LINKS",
+      "down": 6,
+      "up": 2
+    },
+    {
+      "txt": "DER SATZ DIE WÖRTER PUNKT ZWEIMAL",
+      "down": 9,
+      "up": 1
+    },
+    {
+      "txt": "PE EF E I EL LEERZEICHEN EN A CE HA LEERZEICHEN LINKS",
+      "down": 1,
+      "up": 2
+    },
+    {
+      "txt": "DOT DOT ENDE BEIDE AUSGESCHRIEBEN",
+      "down": 7,
+      "up": 5
+    },
+    {
+      "txt": "ENDE",
+      "down": 2,
+      "up": 1
+    },
+    {
+      "txt": "DER FOLGENDE SATZ START DAS WORT NICHTS",
+      "down": 2,
+      "up": 7
+    },
+    {
+      "txt": "GEH E R T",
+      "down": 3,
+      "up": 4
+    },
+    {
+      "txt": "ENDE OKAY ALLES BUCHSTABEN AB JETZT G E R TEE",
+      "down": 4,
+      "up": 9
+    },
+    {
+      "txt": "DER FOLGENDE SATZ DAS WORT NICHTS",
+      "down": 2,
+      "up": 6
+    },
+    {
+      "txt": "EINFACH NUR VIER BUCHSTABEN JA GE EH ER TEE",
+      "down": 3,
+      "up": 9
+    },
+    {
+      "txt": "DOT.",
+      "down": 7,
+      "up": 4
+    },
+    {
+      "txt": "DER SATZ DAS WORT LINKS",
+      "down": 7,
+      "up": 1
+    },
+    {
+      "txt": "DAS WORT GEHEN UND DANN DIE BUCHSTABEN E R T",
+      "down": 4,
+      "up": 8
+    },
+    {
+      "txt": "DREI WÖRTER DAS WORT DOT",
+      "down": 7,
+      "up": 3
+    },
+    {
+      "txt": ".PUNKT",
+      "down": 8,
+      "up": 1
+    },
+    {
+      "txt": "ZWEIMAL PFEIL NACH LINKS DANN DIE WÖRTER RECHTS LINKS DANN ZWEIMAL PFEIL NACH RECHTS",
+      "down": 5,
+      "up": 9
+    },
+    {
+      "txt": "GE E R TEE",
+      "down": 3,
+      "up": 8
+    },
+    {
+      "txt": "WARTE VON VORNE. VIER WÖRTER KEINE EINZELNEN BUCHSTABEN MIT GETRÄNK. GEH E R T.",
+      "down": 3,
+      "up": 1
+    },
+    {
+      "txt": "NEIN WIRKLICH DOT",
+      "down": 5,
+      "up": 1
+    },
+    {
+      "txt": "LINKS LINKS RECHTS ← RECHTS →",
+      "down": 5,
+      "up": 7
+    },
+    {
+      "txt": "EIN WORT DANN SATZZEICHEN. PUNKT PUNKT.",
+      "down": 0,
+      "up": 9
+    },
+    {
+      "txt": "G E R TEE",
+      "down": 1,
+      "up": 0
+    },
+    {
+      "txt": "G E R TE",
+      "down": 2,
+      "up": 0
+    },
+    {
+      "txt": "NEIN BEISTRICH WORTWÖRTLICH NICHTS",
+      "down": 2,
+      "up": 4
+    },
+    {
+      "txt": "DAS WORT LEER",
+      "down": 0,
+      "up": 1
+    },
+    {
+      "txt": "WARTE VON VORNE. EIN WORT DANN DREI BUCHSTABEN. GEH E R TEE.",
+      "down": 0,
+      "up": 8
+    },
+    {
+      "txt": "DIE WÖRTER PUNKT ZWEIMAL",
+      "down": 8,
+      "up": 3
+    },
+    {
+      "txt": "MOMENT QUENGELMODUL",
+      "down": 2,
+      "up": 1
+    },
+    {
+      "txt": "SATZENDE SATZENDE",
+      "down": 8,
+      "up": 4
+    },
+    {
+      "txt": "WIR SIND EXPLODIERT",
+      "down": 4,
+      "up": 2
+    }
+  ],
+  "twitchHelpMsg": "Der Schalter kann mit folgendem Befehl umgelegt werden: !{0} toggle 4 5. Die Reihenfolge der Zahlen im Befehl ist erst ab, dann auf."
+}
