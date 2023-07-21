@@ -1125,6 +1125,7 @@ MonoBehaviour:
   - {fileID: 4900000, guid: eaecf3eb197524c408ab3126800a6da2, type: 3}
   - {fileID: 4900000, guid: b8f501b1922f55d4a86d54c3e49c784e, type: 3}
   - {fileID: 4900000, guid: 23931ec8081068a449fdc30f090147d3, type: 3}
+  - {fileID: 4900000, guid: 84d8666efaaa500488780d8a99af59cf, type: 3}
   textDisplay: {fileID: 11437164}
   switchAnimator: {fileID: 95042108763908372}
   toggleSwitch: {fileID: 114976066910040870}
@@ -1194,7 +1195,7 @@ MonoBehaviour:
   m_Script: {fileID: -289456416, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Settings: '{   "language": "ja",   "langList": "de, en, ja, ru" }'
+  Settings: '{   "language": "ja",   "langList": "de, en, es, ja, ru" }'
   SettingsPath: 
 --- !u!114 &114736512093872078
 MonoBehaviour:

@@ -1,0 +1,430 @@
+{
+  "options": [
+    {
+      "txt": "← ← → ← → →",
+      "down": 5,
+      "up": 4
+    },
+    {
+      "txt": "NO, EN SERIO.",
+      "down": 5,
+      "up": 2
+    },
+    {
+      "txt": "1 3 DOS EN LETRAS CUATRO",
+      "down": 4,
+      "up": 2
+    },
+    {
+      "txt": "ESTE ES TODO CON FLECHAS NINGUNA PALABRA",
+      "down": 2,
+      "up": 8
+    },
+    {
+      "txt": "1 3 2 4",
+      "down": 3,
+      "up": 2
+    },
+    {
+      "txt": "← IZQUIERDA → IZQUIERDA → DERECHA",
+      "down": 5,
+      "up": 6
+    },
+    {
+      "txt": "1 3 DOS 4",
+      "down": 3,
+      "up": 0
+    },
+    {
+      "txt": "←",
+      "down": 6,
+      "up": 3
+    },
+    {
+      "txt": "FLECHA A LA IZQUIERDA PALABRA IZQUIERDA FLECHA A LA DERECHA PALABRA IZQUIERDA FLECHA A LA DERECHA PALABRA DERECHA",
+      "down": 5,
+      "up": 8
+    },
+    {
+      "txt": "UNO Y DESPUÉS 3 DOS 4",
+      "down": 4,
+      "up": 7
+    },
+    {
+      "txt": "PUNTOS SUSPENSIVOS",
+      "down": 5,
+      "up": 0
+    },
+    {
+      "txt": "LA PALABRA PUNTO DOS VECES",
+      "down": 9,
+      "up": 4
+    },
+    {
+      "txt": "EN BLANCO",
+      "down": 1,
+      "up": 3
+    },
+    {
+      "txt": "PUNTO DOS VECES",
+      "down": 7,
+      "up": 6
+    },
+    {
+      "txt": "IZQUIERDA IZQUIERDA DERECHA IZQUIERDA DERECHA DERECHA",
+      "down": 6,
+      "up": 7
+    },
+    {
+      "txt": "← ← DERECHA IZQUIERDA → →",
+      "down": 6,
+      "up": 1
+    },
+    {
+      "txt": "LITERALMENTE EN BLANCO",
+      "down": 1,
+      "up": 5
+    },
+    {
+      "txt": "IZQUIERDA",
+      "down": 6,
+      "up": 9
+    },
+    {
+      "txt": "LITERALMENTE DICE LA PALABRA UNO Y DESPUÉS LOS NÚMEROS 2 3 4",
+      "down": 4,
+      "up": 5
+    },
+    {
+      "txt": "PUNTO Y COMA",
+      "down": 9,
+      "up": 2
+    },
+    {
+      "txt": "POR EL AMOR DE - LA FRASE ACABA DE CAMBIAR, NO SABÍA QUE PODÍA PASAR ESO, DICE ALGO DE ESO EN EL MANUAL?",
+      "down": 8,
+      "up": 7
+    },
+    {
+      "txt": "POR EL AMOR DE DIOS JESÚS Y LA VIRGEN POR FAVOR PUNTO SEGUIDO PUNTO SEGUIDO.",
+      "down": 9,
+      "up": 0
+    },
+    {
+      "txt": "..",
+      "down": 8,
+      "up": 5
+    },
+    {
+      "txt": "UNO EN LETRAS 3 2 4 EN NÚMEROS",
+      "down": 3,
+      "up": 5
+    },
+    {
+      "txt": "ENE O COMA ESPACIO ELE I TE E ERRE A ELE EME E ENE TE E ESPACIO ENE A DE A",
+      "down": 0,
+      "up": 7
+    },
+    {
+      "txt": "1 3 DOS EN LETRAS 4",
+      "down": 4,
+      "up": 1
+    },
+    {
+      "txt": "LA FRASE LITERALMENTE UNA FLECHA A LA IZQUIERDA",
+      "down": 5,
+      "up": 3
+    },
+    {
+      "txt": "DOS PUNTOS",
+      "down": 8,
+      "up": 2
+    },
+    {
+      "txt": "PUNTO Y COMA EN PALABRAS",
+      "down": 9,
+      "up": 9
+    },
+    {
+      "txt": "ESPERA, OLVIDATE TODO LO QUE DIJE, DOS PALABRAS DESPUÉS DOS FLECHAS Y DESPUÉS DOS PALABRAS: ← ← DERECHA IZQUIERDA → →",
+      "down": 1,
+      "up": 6
+    },
+    {
+      "txt": "SON DOS PALABRAS NINGÚN PUNTO LISTO? PUNTOS SUSPENSIVOS",
+      "down": 5,
+      "up": 0
+    },
+    {
+      "txt": "1 TRES DOS CUATRO",
+      "down": 3,
+      "up": 6
+    },
+    {
+      "txt": "OK PALABRA POR PALABRA DOS FLECHAS A LA IZQUIERDA DESPUÉS LAS PALABRAS DERECHA IZQUIERDA DERECHA Y DESPUÉS UNA FLECHA A LA DERECHA",
+      "down": 6,
+      "up": 0
+    },
+    {
+      "txt": "TODO EN PALABRAS UNO TRES DOS Y EL NÚMERO CUATRO",
+      "down": 4,
+      "up": 0
+    },
+    {
+      "txt": "PUNTO",
+      "down": 7,
+      "up": 9
+    },
+    {
+      "txt": "ENE O COMA DESPACIO ELE I TE E ERRE A ELE EME E ENE TE E ESPACIO ENE A DE A",
+      "down": 2,
+      "up": 9
+    },
+    {
+      "txt": ":",
+      "down": 8,
+      "up": 6
+    },
+    {
+      "txt": "LITERALMENTE NADA",
+      "down": 1,
+      "up": 4
+    },
+    {
+      "txt": "CINCO PALABRAS PUNTO Y COMA EN PALABRAS",
+      "down": 1,
+      "up": 9
+    },
+    {
+      "txt": ".PUNTO",
+      "down": 7,
+      "up": 8
+    },
+    {
+      "txt": "FLECHA IZQUIERDA",
+      "down": 6,
+      "up": 8
+    },
+    {
+      "txt": "NO, LITERALMENTE NADA",
+      "down": 2,
+      "up": 5
+    },
+    {
+      "txt": "LA FRASE: PUNTO Y COMA",
+      "down": 9,
+      "up": 3
+    },
+    {
+      "txt": "DESPUÉS DE QUE DIGA PIP BUSCA ESTA FRASE PALABRA POR PALABRA PIP LITERALMENTE UNA FLECHA A LA IZQUIERDA",
+      "down": 7,
+      "up": 2
+    },
+    {
+      "txt": "LA PALABRA IZQUIERDA",
+      "down": 7,
+      "up": 0
+    },
+    {
+      "txt": "ESPACIO VACÍO",
+      "down": 1,
+      "up": 6
+    },
+    {
+      "txt": "U ENE A ESPACIO EFE ELE E CE HACHE A ESPACIO A ESPACIO ELE A ESPACIO I ZETA CU U I E ERRE DE A",
+      "down": 6,
+      "up": 5
+    },
+    {
+      "txt": "1 3 DOS EN LETRAS 4",
+      "down": 4,
+      "up": 3
+    },
+    {
+      "txt": "ESPERA ESTÁ EN BLANCO",
+      "down": 1,
+      "up": 9
+    },
+    {
+      "txt": "UNO TRES DOS CUATRO",
+      "down": 3,
+      "up": 7
+    },
+    {
+      "txt": "NADA",
+      "down": 1,
+      "up": 2
+    },
+    {
+      "txt": "UNA FLECHA A LA IZQUIERDA",
+      "down": 6,
+      "up": 4
+    },
+    {
+      "txt": "SIETE PALABRAS CINCO PALABRAS PUNTO Y COMA EN PALABRAS",
+      "down": 0,
+      "up": 5
+    },
+    {
+      "txt": "NO MUESTRA NADA",
+      "down": 2,
+      "up": 3
+    },
+    {
+      "txt": "NO HAY NADA",
+      "down": 1,
+      "up": 8
+    },
+    {
+      "txt": "LITERALMENTE UNA FLECHA A LA IZQUIERDA",
+      "down": 6,
+      "up": 2
+    },
+    {
+      "txt": "LA FRASE LA PALABRA PUNTO DOS VECES",
+      "down": 9,
+      "up": 1
+    },
+    {
+      "txt": "U ENE A ESPACIO EFE ELE E CE HACHE A ESPACIO A DESPACIO ELE A DESPACIO I SETA CU U I E ERRE DE A",
+      "down": 1,
+      "up": 2
+    },
+    {
+      "txt": "PUNTO PUNTO",
+      "down": 7,
+      "up": 5
+    },
+    {
+      "txt": "ESO ES LO QUE ME APARECE",
+      "down": 2,
+      "up": 1
+    },
+    {
+      "txt": "LA SIGUIENTE ORACIÓN LA PALABRA NADA",
+      "down": 2,
+      "up": 7
+    },
+    {
+      "txt": "UNO 3 2 4",
+      "down": 3,
+      "up": 4
+    },
+    {
+      "txt": "OKAY TODO EN PALABRAS EMPEZANDO YA UNO DOS TRES CUATRO",
+      "down": 4,
+      "up": 9
+    },
+    {
+      "txt": "LA FRASE LA PALABRA NADA",
+      "down": 2,
+      "up": 6
+    },
+    {
+      "txt": "UNO TRES Y DOS VECES EL NÚMERO CUATRO",
+      "down": 3,
+      "up": 9
+    },
+    {
+      "txt": "PUNTO.",
+      "down": 7,
+      "up": 4
+    },
+    {
+      "txt": "LA FRASE LA PALABRA IZQUIERDA",
+      "down": 7,
+      "up": 1
+    },
+    {
+      "txt": "LA PALABRA UNO Y DESPUÉS LOS NÚMEROS 3 2 4",
+      "down": 4,
+      "up": 8
+    },
+    {
+      "txt": "TRES PALABRAS LA PALABRA PUNTO",
+      "down": 7,
+      "up": 3
+    },
+    {
+      "txt": "DOS PUNTOS EN PALABRAS",
+      "down": 8,
+      "up": 1
+    },
+    {
+      "txt": "DOS FLECHAS A LA IZQUIERDA DESPUÉS LAS PALABRAS DERECHA IZQUIERDA DERECHA Y DESPUÉS UNA FLECHA A LA DERECHA",
+      "down": 5,
+      "up": 9
+    },
+    {
+      "txt": "UNO 3 2 CUATRO",
+      "down": 3,
+      "up": 8
+    },
+    {
+      "txt": "OLVIDATE TODO LO QUE DIJE. TODO EN PALABRAS, SIN PUNTOS NI COMAS. UNO TRES 2 4.",
+      "down": 3,
+      "up": 1
+    },
+    {
+      "txt": "NO COMA EN SERIO PUNTO",
+      "down": 5,
+      "up": 1
+    },
+    {
+      "txt": "IZQUIERDA IZQUIERDA DERECHA ← DERECHA →",
+      "down": 5,
+      "up": 7
+    },
+    {
+      "txt": "UNA PALABRA Y DESPUÉS UNA PUNTUACIÓN. PUNTO PUNTO.",
+      "down": 0,
+      "up": 9
+    },
+    {
+      "txt": "1 3 4 4",
+      "down": 1,
+      "up": 0
+    },
+    {
+      "txt": "1 3 CUATRO CUATRO",
+      "down": 2,
+      "up": 0
+    },
+    {
+      "txt": "NO COMA LITERALMENTE NADA",
+      "down": 2,
+      "up": 4
+    },
+    {
+      "txt": "LAS PALABRAS EN BLANCO",
+      "down": 0,
+      "up": 1
+    },
+    {
+      "txt": "OLVIDATE TODO LO QUE DIJE. DOS PALABRAS Y DESPUÉS DOS NÚMEROS. UNO TRES 2 4.",
+      "down": 0,
+      "up": 8
+    },
+    {
+      "txt": "DOBLE PUNTO",
+      "down": 8,
+      "up": 3
+    },
+    {
+      "txt": "ESPERA CON LA CHARLA LOCA QUE TENGO QUE HACER EL NEEDY",
+      "down": 2,
+      "up": 1
+    },
+    {
+      "txt": "PUNTO SEGUIDO PUNTO SEGUIDO",
+      "down": 8,
+      "up": 4
+    },
+    {
+      "txt": "EXPLOTAMOS",
+      "down": 4,
+      "up": 2
+    }
+  ],
+  "twitchHelpMsg": "Mueve el interrumptor hacia abajo y hacia arriba usando !{0} toggle 4 5. El orden es primero abajo, después arriba."
+}
