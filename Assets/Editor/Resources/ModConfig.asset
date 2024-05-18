@@ -23,6 +23,6 @@ MonoBehaviour:
     ISO 639-1 code.\r\nList of avaliable ISO code: de, en, es, ja, ru\r\n\r\nOriginal
     Mod by Perky.\r\nTwitch Plays supported.\r\n\r\nIf you want to translate into
     your language, feel free to contact my discord: maximumcombo\r\n\r\nSource: https://github.com/MaximumCombo/CrazyTalkTranslated"
-  version: 1.5
+  version: 1.6
   outputFolder: build
   previewImage: {fileID: 2800000, guid: d1b50e1c8d65e3e46a4963167e44cd48, type: 3}

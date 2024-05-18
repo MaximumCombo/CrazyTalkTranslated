@@ -36,7 +36,18 @@ public enum LangID
     en,
     ru,
     de,
-    es
+    es,
+    it
+}
+
+public enum LangName
+{
+    Japanese = 0,
+    English,
+    Russian,
+    German,
+    Spanish,
+    Italian
 }
 
 public class CrazyTalkTranslatedModule : MonoBehaviour
@@ -99,6 +110,7 @@ public class CrazyTalkTranslatedModule : MonoBehaviour
 
         TwitchHelpMessage = mJson.twitchHelpMsg;
 
+        Debug.LogFormat("[Crazy Talk Translated #{0}] Using language code: \"{1}\"", moduleID, (LangName)mlangID);
         Debug.LogFormat("[Crazy Talk Translated #{0}] Phrase: \"{1}\"", moduleID, mOption.txt);
         Debug.LogFormat("[Crazy Talk Translated #{0}] Down: \"{1}\", Up: \"{2}\"", moduleID, mOption.down, mOption.up);
     }
@@ -113,7 +125,7 @@ public class CrazyTalkTranslatedModule : MonoBehaviour
     {
         bSwitchState = !bSwitchState;
         bool isUp = bSwitchState;
-        switchAnimator.SetBool("IsUp", isUp);
+        switchAnimator.SetBool("IsUp", bSwitchState);
 
         GetComponent<KMAudio>().PlaySoundAtTransform("crazytalk_rocker_switch", transform);
         int second = (int)Math.Floor(GetComponent<KMBombInfo>().GetTime()) % 10;
